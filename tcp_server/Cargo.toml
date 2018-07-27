@@ -1,0 +1,6 @@
+[package]
+name = "tcp_server"
+version = "0.1.0"
+authors = ["James Campbell <jcampbell@parrylabs.com>"]
+
+[dependencies]
