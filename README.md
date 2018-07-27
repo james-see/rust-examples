@@ -9,5 +9,11 @@ For each folder, cd into the folder and run `cargo build` then `cargo run` and i
 
 ### tcp_server
 
-Starts a local server on port 9123. You can quickly netcat a message to it and it should respond back like this: `echo 1 | netcat localhost 9123`
+Starts a local server on port 9123. 
+
+You can quickly netcat a message to it and it should respond back like this: 
+
+`echo 1 | netcat localhost 9123`
+
+### more coming soon
 
