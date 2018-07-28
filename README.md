@@ -10,6 +10,12 @@ Some examples of snippets I use a lot. Helped me get started and hope it will he
 
 ## Running using `cargo build`
 
+#### virtual manifest method
+
+From the root folder simply run `cargo build` and it will build every sub directory package. Then explicitly run with `-p` the specific package you want to run, e.g., `cargo run -p tcp_server`. 
+
+#### Manual method
+
 For each folder, cd into the folder and run `cargo build` then `cargo run` and it should work fine.
 
 ## Examples
