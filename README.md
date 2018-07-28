@@ -20,6 +20,8 @@ For each folder, cd into the folder and run `cargo build` then `cargo run` and i
 
 ## Examples
 
+_below are the examples in each subfolder under the main repo_
+
 ### tcp_server
 
 Starts a local server on port 9123. 
@@ -27,6 +29,10 @@ Starts a local server on port 9123.
 You can quickly netcat a message to it and it should respond back like this: 
 
 `echo 1 | netcat localhost 9123`
+
+### input_output
+
+A simple example where it asks for a number input and it prints out the number you selected.
 
 ### more coming soon
 
