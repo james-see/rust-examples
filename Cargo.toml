@@ -1,0 +1,6 @@
+# Cargo.toml
+[workspace]
+members = [
+    "tcp_server",
+    "input_output",
+]
