@@ -5,7 +5,7 @@ Some examples of snippets I use a lot. Helped me get started and hope it will he
 
 1. Run `curl https://sh.rustup.rs -sSf | sh`
 
-2. then make sure Cargo is in your path by adding this to your profile: `export PATH="$HOME/.cargo/bin:$PATH"`. I use [oh-my-zsh](https://ohmyz.sh) so I just do `nano ~/.zshrc` then add that line to the bottom via CTRL + W and then CTRL + V to get to the bottom quickly, or you could just echo it to .zshrc via `echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~.zshrc`.
+2. then make sure Cargo is in your path by adding this to your profile: `export PATH="$HOME/.cargo/bin:$PATH"`. I use [oh-my-zsh](https://ohmyz.sh) so I just do `nano ~/.zshrc` then add that line to the bottom via CTRL + W and then CTRL + V to get to the bottom quickly, or you could just echo it to .zshrc via `echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc`.
 
 
 ## Running using `cargo build`
